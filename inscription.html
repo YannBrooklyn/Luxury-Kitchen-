@@ -34,6 +34,20 @@
                 </div>
             </nav>
 
+            <nav>
+                <div class="navcomputer">
+                    <ul class="ulnav2">
+                        <a href="home.html"><h2>Luxury Kitchen</h2></a>
+                        <a href="poele.html"><li class="liburger">Poêles</li></a>
+                        <a href="verres.html"><li class="liburger">Verres</li></a>
+                        <a href="accessoires.html"><li class="liburger">Accessoires</li></a>
+                        <a href="couvert.html"><li class="liburger">Couverts</li></a>
+                        <a href="assiettes.html"><li class="liburger">Assiettes</li></a>
+                        <a href="moulesplaques.html"><li class="liburger">Moules et plaques</li></a>
+                    </ul>
+                </div>
+            </nav>
+
     
 
     
@@ -84,22 +98,22 @@
             <h4 class="titleregistrer1">Créer un compte</h4>
             <div class="titledivregistrer">
                 <h5 class="titleregistrer2">Vous avez déjà un compte ?</h5>
-                <h5 class="titleregistrer3">Identifiez-vous ici.</h5>
+                <a href="identification.html"><h5 class="titleregistrer3">Identifiez-vous ici.</h5></a>
             </div>
 
-            <form action="" method="get" class="formregistrer">
+            <form action="" method="get" class="textregistrer">
 
-            <input type="surname" placeholder="Nom de Famille" class="textregistrer" required pattern="[a-z] [A-Z] {3-25}">
-            <input type="name" placeholder="Prénom" class="textregistrer">
-            <input type="phone" placeholder="Numéro de téléphone" class="textregistrer">
-            <input type="mail" placeholder="Email" class="textregistrer">
-            <input type="postal" placeholder="Code Postal" class="textregistrer">
-            <input type="adresse" placeholder="Adresse" class="textregistrer">
+            <input type="surname" placeholder="Nom de Famille" class="textregistrer" required pattern="[A-Za-z]{3-25}">
+            <input type="name" placeholder="Prénom" class="textregistrer" required pattern="[a-zA-Z]{3-25}">
+            <input type="phone" placeholder="Numéro de téléphone" class="textregistrer" required pattern="[0-9]{3-25}">
+            <input type="email" placeholder="Email" class="textregistrer" required pattern="[a-zA-Z]{3-25}">
+            <input type="postal" placeholder="Code Postal" class="textregistrer" required pattern="[0-9]{3-25}">
+            <input type="adresse" placeholder="Adresse" class="textregistrer" required pattern="[a-zA-Z]{3-25}">
             <div class="divcheckbox">
                 <input type="checkbox" class="checkregistrer">
                 <label for="checkregistrer" class="labelcheckregistrer">En créant un compte, vous acceptez les condition de vente. Veuillez consulter notre notice de protections de vos informations personnelles et notre notice cookies.</label>
             </div>
-            <input type="button" value="S'INSCRIRE" class="buttonregistrer">
+            <a href="homelog.html"><input type="submit" value="S'INSCRIRE" class="buttonregistrer"></a>
             </form>
         </div>
     </main>

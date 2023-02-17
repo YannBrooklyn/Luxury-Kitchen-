@@ -69,6 +69,10 @@
         
     }
 
+    .navcomputer {
+        display: none;
+    }
+
     .navico {
         width: 25%;
         gap: 10rem;
@@ -733,6 +737,78 @@
         justify-content: space-between;
         
         
+    }
+
+    /************************* Produit ***********************/
+
+
+    .divpageproduit0 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .buttonpageproduit {
+        background-color: #d10303;
+        color:white;
+        border: none;
+        width: 30%;
+        height: 3vh;
+       border-radius: 2vh;
+       font-size: 1.5vh;
+    }
+
+    .produitimgpage {
+        width: 70%;
+    }
+
+    .loremproduit {
+        width: 80%;
+        color:rgb(117, 117, 117)
+    }
+
+    .produitpagedefile {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    } 
+
+    .produitpagedefile-flexbox {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        
+    }
+
+    .produitpage0 {
+    display: inline-block;
+    flex: 0 0 auto;
+    margin:0;
+    padding: 0;
+    width: 50%;
+    background-color: rgb(117, 117, 117);
+    }
+
+    .titreproduitpage {
+        font-size: 100%;
+    }
+
+    .imgproduitdefile {
+        width: 100%;
+    }
+
+    .buttonpageproduit2 {
+        background-color: #d10303;
+        color:white;
+        border: none;
+        border-radius: 1vh;
+        width: 50%;
+        height: 2vh;
+        font-size: 1.5vh;
     }
 
     /************************* Footer ******************************/

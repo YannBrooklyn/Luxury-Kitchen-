@@ -34,6 +34,20 @@
                 </div>
             </nav>
 
+            <nav>
+                <div class="navcomputer">
+                    <ul class="ulnav2">
+                        <a href="home.html"><h2>Luxury Kitchen</h2></a>
+                        <a href="poele.html"><li class="liburger">Poêles</li></a>
+                        <a href="verres.html"><li class="liburger">Verres</li></a>
+                        <a href="accessoires.html"><li class="liburger">Accessoires</li></a>
+                        <a href="couvert.html"><li class="liburger">Couverts</li></a>
+                        <a href="assiettes.html"><li class="liburger">Assiettes</li></a>
+                        <a href="moulesplaques.html"><li class="liburger">Moules et plaques</li></a>
+                    </ul>
+                </div>
+            </nav>
+
     
 
     
@@ -93,11 +107,14 @@
                     <h5 class="littletitle">Vous n'avez pas de compte ?</h5>
                     <h5 class="littletitle1">Créer un compte</h5>
                 </div>
-                <input type="mail" placeholder="E-Mail ou numéro de téléphone" class="logintextbox">
-                <figure></figure>
-                <input type="password" placeholder="Mot de passe" class="logintextbox">
-                <figure></figure>
-                <input type="button" value="SE CONNECTER" class="buttonlogin">
+
+                <form action="" method="get" class="logintextbox">
+                    <input type="mail" placeholder="E-Mail ou numéro de téléphone" class="logintextbox" required pattern="[a-zA-Z]{3-25}">
+                    <figure></figure>
+                    <input type="password" placeholder="Mot de passe" class="logintextbox" required pattern="[a-zA-Z]{3-25}">
+                    <figure></figure>
+                    <a href="homelog"><input type="submit" value="SE CONNECTER" class="buttonlogin"></a>
+                </form>
             </div>
         </main>
 </body>
